@@ -4,14 +4,15 @@
       alt="Quasar logo"
       src="~assets/quasar-logo-vertical.svg"
       style="width: 200px; height: 200px"
-    >
+    />
   </q-page>
 </template>
 
-<script>
-import { defineComponent } from 'vue'
+<script setup>
+import { defineComponent, ref } from "vue";
+import { useQuasar } from "quasar";
 
-export default defineComponent({
-  name: 'IndexPage'
-})
+defineComponent({
+  name: "IndexP",
+});
 </script>

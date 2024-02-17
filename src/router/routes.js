@@ -7,7 +7,6 @@ const routes = [
       { path: "register", component: () => import("pages/registerUser.vue") },
     ],
   },
-
   // Always leave this as last one,
   // but you can also remove it
   {

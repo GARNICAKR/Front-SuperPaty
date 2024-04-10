@@ -46,6 +46,10 @@ module.exports = configure(function (ctx) {
     build: {
       vueRouterMode: "hash", // available values: 'hash', 'history'
 
+      env: {
+        VUE_APP_API_URL: "http://localhost:3000",
+        // VUE_APP_API_URL: "http://localhost:80",
+      },
       // transpile: false,
       // publicPath: '/',
 
